@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/btn_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="预览" />
+
+        <Button
+            android:id="@+id/btn_switch_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="切换摄像头" />
+
+        <Button
+            android:id="@+id/btn_focusing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="对焦" />
+
+        <Button
+            android:id="@+id/btn_take_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拍照" />
+
+        <Button
+            android:id="@+id/btn_image_analysis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片分析" />
+
+        <Button
+            android:id="@+id/btn_video_capture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="录制视频" />
+    </LinearLayout>
+</ScrollView>
